@@ -1,6 +1,6 @@
 <template v-slot:slot-icon>
   <tabbar>
-    <tab-bar-item path="/Home" ActiveColor="blue">
+    <tab-bar-item path="/Home" ActiveColor="#ff5777">
       <img src="~assets/img/tabbar/home.svg" alt="" slot="slot-icon" />
       <img
         src="~assets/img/tabbar/home_active.svg"
@@ -9,7 +9,7 @@
       />
       <div slot="slot-text">首页</div>
     </tab-bar-item>
-    <tab-bar-item path="/Category" ActiveColor="blue">
+    <tab-bar-item path="/Category" ActiveColor="#ff5777">
       <img src="~assets/img/tabbar/category.svg" alt="" slot="slot-icon" />
       <img
         src="~assets/img/tabbar/category_active.svg"
@@ -18,7 +18,7 @@
       />
       <div slot="slot-text">分类</div>
     </tab-bar-item>
-    <tab-bar-item path="Cart" ActiveColor="blue">
+    <tab-bar-item path="Cart" ActiveColor="#ff5777">
       <img src="~assets/img/tabbar/shopcart.svg" alt="" slot="slot-icon" />
       <img
         src="~assets/img/tabbar/shopcart_active.svg"
@@ -27,7 +27,7 @@
       />
       <div slot="slot-text">购物车</div>
     </tab-bar-item>
-    <tab-bar-item path="Profile" ActiveColor="blue">
+    <tab-bar-item path="Profile" ActiveColor="#ff5777">
       <img src="~assets/img/tabbar/profile.svg" alt="" slot="slot-icon" />
       <img
         src="~assets/img/tabbar/profile_active.svg"

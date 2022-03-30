@@ -30,7 +30,6 @@ export default {
   },
   computed: {
     isActive() {
-      console.log("11111111");
       return this.$route.path.indexOf(this.path) != -1;
     },
     activeStyle() {
