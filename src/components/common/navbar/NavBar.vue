@@ -1,8 +1,10 @@
 <template>
-  <div class="nav-bar">
-    <div class="left"><slot name="left"></slot></div>
-    <div class="center"><slot name="center"></slot></div>
-    <div class="right"><slot name="right"></slot></div>
+  <div class="home-nav">
+    <div class="nav-bar">
+      <div class="left"><slot name="left"></slot></div>
+      <div class="center"><slot name="center"></slot></div>
+      <div class="right"><slot name="right"></slot></div>
+    </div>
   </div>
 </template>
 
@@ -13,6 +15,8 @@ export default {
 </script>
 
 <style scoped>
+.home-nav {
+}
 .nav-bar {
   display: flex;
   height: 44px;

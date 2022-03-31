@@ -1,5 +1,5 @@
-<template v-slot:slot-icon>
-  <tabbar>
+<template >
+  <tabbar class="tabbar">
     <tab-bar-item path="/Home" ActiveColor="#ff5777">
       <img src="~assets/img/tabbar/home.svg" alt="" slot="slot-icon" />
       <img
@@ -50,5 +50,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.tabbar {
+  z-index: 9;
+}
 </style>
