@@ -36,7 +36,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .title {
   text-align: center;
   padding: 17px 0 8px 0;

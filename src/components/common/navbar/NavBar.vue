@@ -15,8 +15,6 @@ export default {
 </script>
 
 <style scoped>
-.home-nav {
-}
 .nav-bar {
   display: flex;
   height: 44px;
